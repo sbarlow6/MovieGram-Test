@@ -1,0 +1,3 @@
+Scenario,imdbid,respStatus,error,message
+get all reviews for non existent imdbid,tt9999999,200,#notpresent,#notpresent
+get all reviews for invalid  imdbid,"abc@#$;,'",200,#notpresent,#notpresent

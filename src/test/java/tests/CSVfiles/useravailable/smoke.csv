@@ -1,0 +1,3 @@
+Scenario,textuname,respStatus,returned
+Validate that unavailable username returns true,sbarlowc,200,true
+Validate that avaiable username returns false,ffsadjyuuiouong,200,false

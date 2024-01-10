@@ -1,0 +1,2 @@
+Scenario,revid,respStatus
+get all reviews to display on home page,vehicles[0].revid,200

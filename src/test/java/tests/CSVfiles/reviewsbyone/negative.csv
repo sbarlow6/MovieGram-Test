@@ -1,0 +1,3 @@
+Scenario,revid,respStatus,error,message
+get review with Non existent ID,999,200,#notpresent,#notpresent
+get review with invalid id,abc,400,Bad Request,"Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: ""abc"""

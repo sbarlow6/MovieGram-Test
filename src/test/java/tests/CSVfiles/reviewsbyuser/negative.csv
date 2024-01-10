@@ -1,0 +1,3 @@
+Scenario,revusername,respStatus,error,message
+get all reviews written by non existent username,idontexistsorry,200,#notpresent,#notpresent
+get all reviews written by username with special characters,"abc@#$,;'.",200,#notpresent,#notpresent

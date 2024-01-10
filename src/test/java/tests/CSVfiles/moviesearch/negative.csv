@@ -1,0 +1,3 @@
+Scenario,filmtitle,filmyear,respStatus,imdbID
+Find a movie with an invalid title,asdfghjkljklgfld,2009,200,#null
+Find a moview with invalid year,star%20trek,sad'f@,200,tt0796366

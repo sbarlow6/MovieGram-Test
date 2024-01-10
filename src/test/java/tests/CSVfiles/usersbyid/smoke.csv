@@ -1,0 +1,2 @@
+Scenario,textuid,respStatus
+get username for user id 4,4,200

@@ -1,0 +1,3 @@
+Scenario,respStatus,imdbID,error,message
+Invalid IMDB ID,500,tt9999999,Internal Server Error,ids for this class must be manually assigned before calling save(): com.revature.model.Movies; nested exception is org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.revature.model.Movies
+IMDB ID with special characters,500,"s@3,;'",Internal Server Error,ids for this class must be manually assigned before calling save(): com.revature.model.Movies; nested exception is org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.revature.model.Movies

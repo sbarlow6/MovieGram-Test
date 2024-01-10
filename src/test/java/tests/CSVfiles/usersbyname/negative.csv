@@ -1,0 +1,3 @@
+Scenario,textuname,respStatus,error,message
+search for user id that doesn't exist,idontexistsorry,500,Internal Server Error,No message available
+search for user id that has special character,hjkl;'@#$,500,Internal Server Error,No message available

@@ -1,0 +1,3 @@
+Scenario,textuid,respStatus,error,message
+get username for non existent user id,999,500,Internal Server Error,No message available
+get username for invalid user id,abc,400,Bad Request,Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "abc"
